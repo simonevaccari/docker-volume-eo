@@ -4,6 +4,24 @@
 ![](https://github.com/snap-contrib/docker-volume-eo/workflows/Docker/badge.svg)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
+## Pull this docker image
+
+This docker image is published on Github Packages. 
+
+If you don't have a Personal Access Token with `read:packages` set, create a new one at: https://github.com/settings/tokens/new
+
+Log on the docker repository with:
+
+```console
+docker login docker.pkg.github.com --username <your_user_name> --password <generated_token_not_password>
+```
+
+Then pull the image from the command line with: 
+
+```console
+docker pull docker.pkg.github.com/snap-contrib/docker-volume-eo/volume-eo:latest
+```
+
 ## Build this docker image
 
 ```console
