@@ -43,7 +43,7 @@ Create a JSON file called `usersettings.json` and add:
 Then run: 
 
 ```console
-docker run --rm -it  -v eo-data:/data -v $PWD/settings/usersettings.json:/root/.config/Stars/usersettings.json volume-eo:latest S1A_IW_GRDH_1SDV_20201228T170552_20201228T170617_035889_0433FB_D8C7
+docker run --rm -it  -v eo-data:/data -v $PWD/usersettings.json:/root/.config/Stars/usersettings.json volume-eo:latest S1A_IW_GRDH_1SDV_20201228T170552_20201228T170617_035889_0433FB_D8C7
 ```
 
 Now you have a local docker volume with EO data that can be mounted on other docker containers
