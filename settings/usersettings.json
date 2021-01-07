@@ -1,0 +1,10 @@
+{
+  "Credentials": {
+    "scihub": {
+      "AuthType": "Basic",
+      "UriPrefix": "https://scihub.copernicus.eu/",
+      "Username": "",
+      "Password": ""
+    }
+  }
+}
